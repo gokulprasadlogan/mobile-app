@@ -1,0 +1,22 @@
+{
+  "name": "mobile-app",
+  "version": "1.0",
+  "main": "web-app/index.html",
+  "repository": "https://github.com/gokulprasadlogan/mobile-app.git",
+  "author": "gokulprasadlogan <gokulprasadloganathan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd web-app && yarn install && yarn build",
+    "app": "cap sync && cap update android && cap run android && cap open android",
+    "ios": "cap sync && cap update ios && cap run ios && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.1",
+    "@capacitor/cli": "^7.0.1",
+    "@capacitor/core": "^7.0.1"
+  },
+  "description": "Testing for submodule",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "appId": "com.mobile.app",
+  "appName": "mobileApp",
+  "webDir": "web-app/build"
+}
